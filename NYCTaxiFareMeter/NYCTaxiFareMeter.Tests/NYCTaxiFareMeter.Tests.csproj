@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NYCTaxiFareMeter\NYCTaxiFareMeter.csproj">
+    <ProjectReference Include="..\NYCTaxiFareMeter\NYCTaxiFareMeter.Web.csproj">
       <Project>{5103B09B-F371-4371-A818-7220FFD920A8}</Project>
-      <Name>NYCTaxiFareMeter</Name>
+      <Name>NYCTaxiFareMeter.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYCTaxiFareMeter", "NYCTaxiFareMeter\NYCTaxiFareMeter.csproj", "{5103B09B-F371-4371-A818-7220FFD920A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYCTaxiFareMeter.Web", "NYCTaxiFareMeter\NYCTaxiFareMeter.Web.csproj", "{5103B09B-F371-4371-A818-7220FFD920A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYCTaxiFareMeter.Tests", "NYCTaxiFareMeter.Tests\NYCTaxiFareMeter.Tests.csproj", "{4413CE79-4803-446A-9BFD-8722F1911323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYCTaxiFareMeter.Service", "NYCTaxiFareMeter.Service\NYCTaxiFareMeter.Service.csproj", "{34755471-8F9E-4370-8B93-8CF65E275010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYCTaxiFareMeter.Domain", "NYCTaxiFareMeter.Domain\NYCTaxiFareMeter.Domain.csproj", "{166FD7BA-3076-46EB-88AD-658C2DE6A7B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4413CE79-4803-446A-9BFD-8722F1911323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4413CE79-4803-446A-9BFD-8722F1911323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4413CE79-4803-446A-9BFD-8722F1911323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34755471-8F9E-4370-8B93-8CF65E275010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34755471-8F9E-4370-8B93-8CF65E275010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34755471-8F9E-4370-8B93-8CF65E275010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34755471-8F9E-4370-8B93-8CF65E275010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166FD7BA-3076-46EB-88AD-658C2DE6A7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166FD7BA-3076-46EB-88AD-658C2DE6A7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166FD7BA-3076-46EB-88AD-658C2DE6A7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166FD7BA-3076-46EB-88AD-658C2DE6A7B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
